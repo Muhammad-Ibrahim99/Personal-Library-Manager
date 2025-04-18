@@ -23,7 +23,7 @@ st.markdown("""
 <style>
     .main-header {
         font-size: 3rem !important;
-        color: #1E3A8A;
+        color: black;
         font-weight: 700;
         margin-bottom: 1rem;
         text-align: center;
