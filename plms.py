@@ -202,10 +202,10 @@ def get_library_stats():
 
         #count decades
         decades = (book['publication_year'] // 10) * 10
-        if decades['decade'] in decades:
-            decades[decades] += 1
+        if decades in decades:
+            decades['decades'] += 1
         else:
-            decades[decades] = 1
+            decades['decades'] = 1
 
         #sort by count
         genres = dict(sorted(genres.items(), key=lambda x: x[1], reverse=True))
